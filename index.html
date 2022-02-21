@@ -9,7 +9,60 @@
   <title>Awesome Books 2.</title>
 </head>
 <body>
-  
-  <script src="./index.js"></script>
+  <nav class="nav">
+    <h1 class="nav-title">Awesome Books</h1>
+    <ul>
+      <li class=""><a href="#" id="book-list">List</a></li>
+      <li class=""><a href="#" id="add-book">Add new</a></li>
+      <li class="nope"><a href="#" id="contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="date-area" id="date-area">
+  </div>
+  <section class="hide section1">
+    <h2>All Awesome Books</h2>
+    <div class="books-wrapper" id="book-banner"></div>
+  </section>
+  <section class="section2">
+    <h2>Add a New Book</h2>
+    <form class="input-wrapper" id="form-banner">
+      <input
+        type="text"
+        placeholder="Title"
+        id="title"
+        name="title"
+        required
+      />
+      <input
+        type="text"
+        placeholder="Author"
+        id="author"
+        name="author"
+        required
+      />
+      <button type="submit" class="add-btn">Add</button>
+    </form>
+  </section>
+
+  <section class="hide section3">
+    <h2>Contact Information</h2>
+    <p>Hello, we love to hear from you. Your feedback keeps us going, so please contact us via any means below.</p>
+    <ul>
+      <li>Chia Carlyle</li>
+      <li>
+        <ul>
+          <li>Mail: chiacarlyle@awesomebooks.com</li>
+          <li>Number: Office &#01001;</li>
+          <li>Address: Bamenda, Cameroon.</li>
+        </ul>
+      </li>
+    </ul>
+    
+  </section>
+
+  <footer class="footer">
+    <p>&copy;Carlyle & Pascal 2022 All Right Reserved!</p>
+  </footer>  
+  <script src="./index.js" type="module"></script>
 </body>
 </html>
